@@ -5,7 +5,13 @@ function Counter() {
 
   function increment() {
     setCount(count + 1);
+    setCount(count + 1);
   }
+
+  // function increment() {
+  //   setCount((currentCount) => currentCount + 1);
+  //   setCount((currentCount) => currentCount + 1);
+  // }
 
   return <button onClick={increment}>I have been clicked {count} times</button>;
 }
